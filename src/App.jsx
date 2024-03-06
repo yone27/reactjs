@@ -19,9 +19,9 @@ function App() {
           <Link to='/'>
             <h1>App</h1>
           </Link>
-          <Link to='/gif/dark'>Dark</Link>
-          <Link to='/gif/blue'>blue</Link>
-          <Link to='/gif/green'>green</Link>
+          <Link to='/search/dark'>Dark</Link>
+          <Link to='/search/blue'>blue</Link>
+          <Link to='/search/green'>green</Link>
           <GifsContextProvider>
             <Switch>
               <Route path='/' component={Home} />
